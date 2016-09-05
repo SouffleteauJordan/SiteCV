@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<head>
+	<title>Jordan Souffleteau</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./Style/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet" type="text/css">
+</head>
+<body class="home">
+	<div class="container">
+	    	<div class="row" id="menu">
+	    		<div id="homeMenu" class="boutonMenu blue1 col-xs-3 active" onclick="changePage('home');">
+					<div class="avatar"></div>
+					<span class="title">Présentation</span>
+				</div>
+				<div id="resumeMenu" class="boutonMenu blue2 icon-graduation col-xs-3" onclick="changePage('resume');">
+					<span class="title">Expériences</span>
+				</div>
+				<div id="portfolioMenu" class="boutonMenu blue3 icon-brush col-xs-3" onclick="changePage('portfolio');">
+					<span class="title">Mes créations</span>
+				</div>
+				<div id="contactMenu" class="boutonMenu blue4 icon-paperplane col-xs-3" onclick="changePage('contact');">
+					<span class="title">Me contacter</span>
+				</div>
+	    	</div>
+    	
+			<section id="home" class="row pages">
+				<div id="logo">
+					<h1>
+						Jordan Souffleteau
+						<div class="job">Développeur</div>
+					</h1>
+				</div>
+					
+					<br>
+
+					<div class="prez">
+						<p>
+							Ayant plongé très tôt dans l'univers de la technologie, j'ai pris goût à l'Informatique dès mon enfance.
+						</p><p>
+						</p><p>
+							J'ai acquis de bonnes bases de travail en obtenant un <elem> DUT Informatique</elem> à L'IUT de l'Université Paris Descartes.<br>
+							Un stage en fin de formation m'a permis de découvrir le monde de l'entreprise tout en mettant à l'épreuve ces repères, <br>
+							où j'ai eu l'occasion de perfectionner mes connaissances en <elem>.Net</elem> et <elem>C#</elem> eu sein de la société <elem>METAXIS</elem>. <br>
+							J'ai par la suite poursuivis avec une <elem>Licence MIAGE</elem> à l'Université de Paris Descartes où j'ai réalisé un stage à la <br>
+							<elem>BNP Paribas</elem> en tant que développeur.
+						</p>
+						<p>
+							<elem>L'alternance</elem> était en adéquation avec ma façon d'apprendre et de progresser vers un métier.<br>
+							C'est pourquoi je me suis résolument tourné vers une formation de ce type par la suite. <br>
+							Ainsi, je suis actuellement en formation <elem>Master 1 MIAGE</elem> à l'Université de Paris Descartes et je suis en alternance <br>
+							chez <elem>Valtech</elem>, en tant que développeur <elem>JEE / CQ AEM</elem> (Adobe Experience Manager).
+						</p><p>
+						</p><p>
+							J'ai aussi participé et mené à bien plusieurs <elem>projets en équipe et seul</elem>, au cours de mes études et sur mon temps personnel.
+						</p><p>
+						</p><p>
+							Ce site vous permettra d'en apprendre plus sur mon expérience et sur mes projets personnels et pluridisciplinaires.
+						</p>
+						<p>
+							Bonne visite,<br>
+							Jordan Souffleteau.
+						</p>
+					</div>
+				<p style="clear:both"></p>
+			</section>
+			
+			<section id="resume" class="row pages hidden">
+					<div id="exp" class="col-sm-9"><br>
+						<h2>Expériences professionnelles 
+							<a href="cv.pdf" target="_BLINK">
+								<button type="button" style="float:right;margin-top:-15px;" class="btn btn-success">Télécharger ce CV</button>
+							</a>
+						</h2>
+						<ul>
+							<li><h3>Septembre 2015 - Aujourd'hui </h3><span>Développeur <elem>JAVA (JEE)</elem> et <elem>CQ AEM (Adobe Experience Manager)</elem><br>
+							<small style="color: rgba(60, 60, 60, 0.9);">
+								Master 1 Parcours MIAGE en alternance au sein de l'entreprise VALTECH.
+							</small><br>
+							<small>VALTECH, Paris 7 (75)</small></span></li>
+
+							<li><h3>Juin 2015 - Septembre 2015</h3><span>Stage de fin de Licence<br><br>
+							<small style="color: rgba(60, 60, 60, 0.9);">
+								Développement de macro excel en <elem>VBA</elem> pour : <br>
+								- Les audits interne.<br>
+								- Parsing de fichier XML, alimentation d'excel et mise à jour.<br>
+								- Transcription d'excel en XML.<br>
+								Développement de l'intranet du pôle <elem>Coeur Métier</elem> en utilisant <elem> Microsoft Sharepoint</elem><br>
+								- Création des vues (organigramme, liste des data, formulaires)<br>
+								- Rédaction des docs (Cahier des charges, rédaction des spécifications techniques et fonctionnelles, manuel d'utilisation, etc...).<br>
+								- Mise en place d'un formulaire pour les demandes internes d'accès aux web services.
+							</small><br><br>
+							<small>BNP Paribas, Montreuil (93) </small></span></li>
+
+							<li><h3>Fevrier 2015 - Mai 2015</h3><span>Projet de fin de Licence<br><br>
+							<small style="color: rgba(60, 60, 60, 0.9);">
+								Développement d'une application <elem>Java</elem> permettant la rédaction et lecture de "Livre dont vous êtes le Héro" <br>
+								- Rédaction du livre avec ajout de choix possible (Histoire en arbre).<br>
+								- Personnalisation du livre :<br>
+									- Création du héro<br>
+									- Création d'objet pour l'équipement (bras, jambes, tête, etc...)<br>
+									- Création d'ennemi avec équipement<br>
+									- Création d'attribut (Feu, Acier, etc...)<br>
+									- Création de règles via un <elem>langage interprété</elem> par l'application (Eau > Feu -> +5 dgts) <br>
+								- Lecture du livre avec un système de combat au tour par tour via une liste de choix en attaque et en défense:<br>
+									- Choix de l'action (Attaque, Protection, Esquive, etc...)<br>
+									- Choix de la direction de l'action<br>
+								- Enregistrement de livre audio avec les mêmes personnalisation<br>
+								- Lecture de livre audio avec un système de combat similaire<br>
+								- Partage des livres en ligne (Upload / Download) avec versioning<br>
+								- Fusion des base de données avec l'appplication mobile<br>
+							</small><br><br>
+							<small>BNP Paribas, Montreuil (93) </small></span></li>
+
+							<li><h3>Avril 2013 - Juin 2013</h3><span>Stage de fin d'étude (IUT)<br><br>
+							<small style="color: rgba(60, 60, 60, 0.9);">
+								Développement d'interface en <elem>WPF</elem>.<br><br>
+								Développement Client (Desktop/Tablette) / Serveur en <elem> C#</elem><br>
+								- Module de visualisation des prix en temps réel.<br>
+								- Module de manipulation des «Options Chain».<br>
+								- Module de control du P/L.<br>
+								- Module de comparaison des prix de différentes actions au cours du temps.<br>
+								- Module de gestion des évènements boursier.<br>
+								- Création des Web Services associés.<br>
+								- Gestions des nouvelles tables.
+							</small><br><br>
+							<small>METAXIS, Senlis (60) </small></span></li>
+
+							<li><h3>Fevrier 2013 - Mars 2013</h3><span>Projet fin de DUT (IUT)<br><br>
+							<small style="color: rgba(60, 60, 60, 0.9);">
+							Développement d'un site internet de finance <br>
+							- Développement Client / Serveur<br>
+							- Création du site internet avec les différentes vues (Login, Compte, Amis, Commentaires, Notes, Facebook, Chart)<br>
+							- Utilisation de <elem>Google Chart</elem><br>
+							- Création du serveur en <elem>C#</elem>
+							</small><br><br>
+							<small>METAXIS, Senlis (60)</small></span></li>
+						</ul><br><br>
+						<h2>Études</h2>
+						<ul>
+							<li><h3>Septembre 2015 – Aujourd'hui</h3><span><b>Master 1ère année Parcours MIAGE en Alternance</b><br>
+							<small>Université de Paris Descartes, Paris 6 (75)</small></span></li>
+							<li><h3>Septembre 2014 – Août 2015</h3><span><b>L3 Parcours MIAGE</b><br>
+							<small>Université de Paris Descartes, Paris 6 (75)</small></span></li>
+							<li><h3>Septembre 2013 – Avril 2014</h3><span><b>L3 Parcours Informatique</b><br>
+							<small>Université de Pierre et Marie Curie, Paris 5 (75)</small></span></li>
+							<li><h3>Septembre 2011 – Août 2013</h3><span><b>DUT</b> Informatique<br>
+							<small>IUT Paris Descartes, Paris 16 (75)</small></span></li>
+							<li><h3>Juin 2011</h3> <span><b>Baccalauréat</b> Scientifique (S), spécialité Science de la Vie et de la Terre<br><small>Lycée Blaise Cendrars, Sevran (93)</small></span></li>
+						</ul>
+						<br>
+					</div>
+					<div id="skills" class="col-sm-3">
+						<h2>Compétences</h2>
+						<ul>
+							<li>.NET <br><small>(C#, WPF, LINQ)</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 70%;"></div>
+								</div>
+							</li>
+							<li>Java / JEE<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 80%;"></div>
+								</div>
+							</li>
+							<li>CQ - AEM<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 75%;"></div>
+								</div>
+							</li>
+							<li>C++<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 70%;"></div>
+								</div>
+							</li>
+							<li>VBA<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 70%;"></div>
+								</div>
+							</li>
+							<li>xHTML<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 85%;"></div>
+								</div>
+							</li>
+							<li>Javascript <br><small>(jQuery, AngularJs)</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 75%;"></div>
+								</div>
+							</li>
+							<li>CSS3 <br><small>(Bootstrap)</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 70%;"></div>
+								</div>
+							</li>
+							<li>SQL <br><small>(Oracle, Mysql, Mongo, SQL Server)</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 75%;"></div>
+								</div>
+							</li>
+							<li>Infographie<br><small>Cinema 4D, Bender</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 80%;"></div>
+								</div>
+							</li>
+							<li>Digital Painting - Retouche<br><small>Photoshop</small><br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 65%;"></div>
+								</div>
+							</li>
+							<li>Système/Bash<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 40%;"></div>
+								</div>
+							</li>
+							<li>Sdk Android (Java)<br>
+								<div class="progressBar progress-primary">
+										<div class="animate bar" style="width: 60%;"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				<p style="clear:both"></p>
+			</section>
+			
+			<section id="portfolio" class="row pages hidden">
+				<ul>
+					<li>
+						<h2>Descartes Finance <a data-original-title="Site hors-ligne" data-toggle="tooltip" title="" class="link"><img src="projects/df.jpg"></a></h2>
+						
+						<div class="row">
+							<div class="col-md-5">
+								<img src="Projects/Descartes finance.png" width="100%"></img><br><br><br>
+								<img src="Projects/compare.png" width="100%"></img>
+							
+								<br><br><br>
+								<h3>Technologies :</h3><br>
+								<ul>
+									<li>- HTML/CSS</li>
+									<li>- JS (jQuery)</li>
+									<li>- C#</li>
+									<li>- SQL Server</li>
+								</ul>
+							</div>
+							<div class="col-md-7">
+								
+								<div class="desc">
+									Descartes Finance est un site internet permettant la visualisation en temps réel des indices boursiers du monde, CAC 40, DOW JONES, NASDAQ. Il s'agit d'un site communautaire offrant une multitude de services aux utilisateurs.<br><br>
+		Devenez le financier que vous réviez d'êtres.
+								</div>
+
+								<div class="desc">
+									<b>Mes contributions :</b><br><br>
+									<ul>
+										<li>- A l'origine de l'idée de l'application</li>
+										<li>- Planification et pilotage du projet</li>
+										<li>- Développement du server</li>
+										<li>- Participation au développement du front</li>
+										<li>- Conception de la base de données</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li style="margin-top: 50px;">
+						<h2>Livres dont vous êtes le héros<a data-original-title="Site hors-ligne" data-toggle="tooltip" title="" class="link"><img src="projects/lh.jpg"></a></h2>
+						
+						<div class="row">
+							<div class="col-md-5">
+								<img src="Projects/Accueil.png" width="100%"><br><br><br>
+								<img src="Projects/Creation livre.png" width="100%">
+								<br><br><br>
+								<h3>Technologies &amp; outils :</h3><br>
+								<ul>
+									<li>- JavaX</li>
+									<li>- Java </li>
+									<li>- MySql</li>
+								</ul>
+							</div>
+							<div class="col-md-7">
+								
+								<div class="desc">
+									L'application "Livres dont vous êtes le héros" vous permet de créer vos propres histoires, imaginer les différents choix possibles, les 
+									redoutables ennemis que vous aurez à affronter et à vaincre à l'aide d'objets légendaires ou d'une simple cuillère. <br>
+									L'application vous permet d'enregistrer votre livre vocalement, de le jouer et de le partager en ligne.
+									Votre imagination est votre seule limite.
+								</div>
+								<div class="desc">
+									<b>Mes contributions :</b><br><br>
+									<ul>
+										<li>- Développement de l'écriture et personnalisation du livre</li>
+										<li>- Participation au développement des autres fonctionnalités</li>
+										<li>- Conception de la base de données local et en ligne</li>
+										<li>- Développement de la fusion des bases de données</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>						
+					</li>
+
+					<li style="margin-top: 50px;">
+						<h2>Créations artistiques <a data-original-title="Site hors-ligne" data-toggle="tooltip" title="" class="link"><img src="projects/lh.jpg"></a></h2>
+						
+						<div class="row">
+							<div class="col-md-5">
+								<img src="Projects/Projet C4D.jpg" width="100%">
+								<br><br><br>
+								<h3>Technologies &amp; outils :</h3><br>
+								<ul>
+									<li>- Cinema 4D</li>
+								</ul>
+							</div>
+							<div class="col-md-7">
+								
+								<div class="desc">
+									Création du Gouffre de Helm inspiré du Seigneur des Anneaux.
+								</div>
+								<div class="desc">
+									<b>Mes objectifs :</b><br><br>
+									<ul>
+										<li>- Apprendre l'infographie</li>
+										<li>- Laisser libre cours à mon imagination</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>						
+					</li>
+				</ul>
+				<p style="clear:both"></p>
+			</section>
+
+			<section id="contact" class="row pages hidden">
+				<h2>Comment me contacter <a data-original-title="Site hors-ligne" data-toggle="tooltip" title="" class="link"><img src="projects/df.jpg"></a></h2>
+					<div class="row">
+						<div class="col-md-5">		
+							<h3>Réseaux sociaux :</h3><br>
+							<ul>
+								<li><a target="_BLANK" href="https://fr.linkedin.com/in/jordan-souffleteau-322075114"> <elem>LinkedIn</elem></a></li>
+								<li><a target="_BLANK" href="http://www.viadeo.com/p/002ty9yjifidpw6"><elem>Viadeo</elem></a></li>
+							</ul><br>
+							<h3> Adresse Email :</h3><br>
+							<ul>
+								<li><elem>jordan.souffleteau@gmail.com</elem></li>
+							</ul>
+						</div>
+						<div class="col-md-7">
+							
+							<div class="desc">
+								Je ne fournis pas mon numéro de téléphone afin d'éviter les spams. Pour l'obtenir, vous pouvez me contacter par l'intermédiaire d'un des deux réseaux sociaux professionnels.
+							</div>
+						</div>
+					</div>
+			</section>
+		</div>
+		<footer class="">
+			<div class="row">
+				© 2016 Jordan Souffleteau.
+				<a target="_BLANK" href="https://fr.linkedin.com/in/jordan-souffleteau-322075114"><span class="icon-linkedin"></span></a>
+				<!--<a target="_BLANK" href="https://play.spotify.com/user/clemh78"><span class="icon-spotify"></span></a>-->
+			</div>
+		</footer>
+</body>
+<script type="text/javascript" src="./Script/script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</html>
